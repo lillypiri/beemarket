@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @listing.quantity %>
+</p>
+
+<p>
+  <strong>Vendor:</strong>
+  <%= @listing.vendor %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @listing.species %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>
